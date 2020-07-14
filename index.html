@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title
+	</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		a {
+			padding: 15px 15px;
+			color: #fff;
+			font-size: 20px;
+		}
+		a:hover {
+			background-color: #fff;
+			color: #ffc107;
+			text-decoration: none;
+		}
+		@media(max-width: 575px){
+			.hidden-xs{
+				display: none;
+			}
+			.xs-my-container{
+				width: 94%;
+				margin-left: 3%;
+				overflow: hidden;
+			}
+			.xs-px15{
+				font-size: 15px;
+			}
+			.xs-px30{
+				font-size: 30px;
+			}
+			.xs-px100{
+				font-size: 100px;
+			}
+			.xs-down-10{
+				margin-top: 10px;
+			}
+			.xs-down-20{
+				margin-top: 20px;
+			}
+			.xs-down-30{
+				margin-top: 30px;
+			}
+			.xs-down-50{
+				margin-top: 50px;
+			}
+			.xs-down-60{
+				margin-top: 60px;
+			}
+			.xs-down-70{
+				margin-top: 70px;
+			}
+			.xs-down-80{
+				margin-top: 80px;
+			}
+			.xs-down-90{
+				margin-top: 90px;
+			}
+			.xs-down-100{
+				margin-top: 100px;
+			}
+			.xs-down--70{
+				margin-top: -70px;
+			}
+			.xs-down--80{
+				margin-top: -80px;
+			}
+			.xs-down--90{
+				margin-top: -90px;
+			}
+			.xs-down--100{
+				margin-top: -100px;
+			}
+			.xs-down--110{
+				margin-top: -110px;
+			}
+			.xs-down--150{
+				margin-top: -150px;
+			}
+			.xs-down--200{
+				margin-top: -200px;
+			}
+			.xs-down--210{
+				margin-top: -210px;
+			}
+			.xs-down--220{
+				margin-top: -220px;
+			}
+			.xs-down--250{
+				margin-top: -250px;
+			}
+			.xs-down--300{
+				margin-top: -300px;
+			}
+			.xs-height-400{
+				height: 400px;
+			}
+			.xs-height-800{
+				height: 800px;
+			}
+			.xs-height-900{
+				height: auto;
+			}
+			.xs-height-950{
+				height: 950px;
+			}
+			.xs-height-1000{
+				height: 1000px;
+			}
+			.xs-height-1200{
+				height: 1200px;
+			}
+			.xs-height-1300{
+				height: 1300px;
+			}
+			.xs-auto{
+				height: auto;
+			}
+			.pre-scrollable{
+				max-height: 200px;
+			}
+			.bg-2{
+				height: 600px;
+			}
+		}
+		@media(min-width: 576px) {
+			.hidden-sm{
+				display: none;
+			}
+			.sm-my-container{
+				width: 94%;
+				margin-left: 3%;
+				overflow: hidden;
+			}
+			.sm-px15{
+				font-size: 15px;
+			}
+			.sm-px20{
+				font-size: 20px;
+			}
+			.sm-px25{
+				font-size: 25px;
+			}
+			.sm-px30{
+				font-size: 30px;
+			}
+			.sm-px100{
+				font-size: 100px;
+			}
+			.sm-down-10{
+				margin-top: 10px;
+			}
+			.sm-down-20{
+				margin-top: 20px;
+			}
+			.sm-down-30{
+				margin-top: 30px;
+			}
+			.sm-down-50{
+				margin-top: 50px;
+			}
+			.sm-down-60{
+				margin-top: 60px;
+			}
+			.sm-down-70{
+				margin-top: 70px;
+			}
+			.sm-down-80{
+				margin-top: 80px;
+			}
+			.sm-down-90{
+				margin-top: 90px;
+			}
+			.sm-down-100{
+				margin-top: 100px;
+			}
+			.sm-down--50{
+				margin-top: -50px;
+			}
+			.sm-down--70{
+				margin-top: -70px;
+			}
+			.sm-down--90{
+				margin-top: -90px;
+			}
+			.sm-down--150{
+				margin-top: -150px;
+			}
+			.sm-down--200{
+				margin-top: -200px;
+			}
+			.sm-down--210{
+				margin-top: -210px;
+			}
+			.sm-down--300{
+				margin-top: -300px;
+			}
+			.sm-height-400{
+				height: 400px;
+			}
+			.sm-height-500{
+				height: 500px;
+			}
+			.sm-height-700{
+				height: 700px;
+			}
+			.sm-height-800{
+				height: 800px;
+			}
+			.sm-height-900{
+				height: 900px;
+			}
+			.sm-height-1000{
+				height: 1000px;
+			}
+			.sm-height-950{
+				height: 950px;
+			}
+			.sm-height-1000{
+				height: 1000px;
+			}
+			.sm-height-1100{
+				height: 1100px;
+			}
+			.pre-scrollable{
+				max-height: 200px !important;
+			}
+		}
+		@media(min-width: 768px) {
+			.hidden-md{
+				display: none;
+			}
+			.md-down-1{
+				margin-top: 1px;
+			}
+			.md-down-3{
+				margin-top: 3px;
+			}
+			.md-down-10{
+				margin-top: 10px;
+			}
+			.md-down-20{
+				margin-top: 20px;
+			}
+			.md-down-30{
+				margin-top: 30px;
+			}
+			.md-down-40{
+				margin-top: 40px;
+			}
+			.md-down-50{
+				margin-top: 50px;
+			}
+			.md-down-70{
+				margin-top: 70px;
+			}
+			.md-down-100{
+				margin-top: 100px;
+			}
+			.md-down-200{
+				margin-top: 200px;
+			}
+			.md-down--10{
+				margin-top: -10px;
+			}
+			.md-down--60{
+				margin-top: -60px;
+			}
+			.md-down--100{
+				margin-top: -100px;
+			}
+			.md-down--150{
+				margin-top: -150px;
+			}
+			.md-down--200{
+				margin-top: -200px;
+			}
+			.md-down--210{
+				margin-top: -210px;
+			}
+			.md-down--220{
+				margin-top: -220px;
+			}
+			.md-down--300{
+				margin-top: -300px;
+			}
+			.md-down--150vh{
+				margin-top: -150vh;
+			}
+			.md-height-300{
+				height: 300px;
+			}
+			.md-height-350{
+				height: 350px;
+			}
+			.md-height-400{
+				height: 400px;
+			}
+			.md-height-450{
+				height: 450px;
+			}
+			.md-height-500{
+				height: 500px;
+			}
+			.md-height-510{
+				margin-top: 510px;
+			}
+			.md-height-520{
+				height: 520px;
+			}
+			.md-px10{
+				font-size: 10px;
+			}
+			.md-px15{
+				font-size: 15px;
+			}
+			.md-px18{
+				font-size: 18px;
+			}
+			.md-px20{
+				font-size: 20px;
+			}
+			.md-px30{
+				font-size: 30px;
+			}
+			.md-px50{
+				font-size: 50px;
+			}
+			.md-px70{
+				font-size: 70px;
+			}
+			.md-px80{
+				font-size: 80px;
+			}
+			.md-px100{
+				font-size: 100px;
+			}
+			.pre-scrollable{
+				max-height: 340px !important;
+			}
+		}
+		@media(min-width: 992px){
+			.hidden-lg{
+				display: none;
+			}
+			.lg-down-1{
+				margin-top: 1px;
+			}
+			.lg-down-10{
+				margin-top: 10px;
+			}
+			.lg-down-20{
+				margin-top: 20px;
+			}
+			.lg-down-30{
+				margin-top: 30px;
+			}
+			.lg-down-40{
+				margin-top: 40px;
+			}
+			.lg-down-50{
+				margin-top: 50px;
+			}
+			.lg-down-60{
+				margin-top: 60px;
+			}
+			.lg-down-70{
+				margin-top: 70px;
+			}
+			.lg-down-80{
+				margin-top: 80px;
+			}
+			.lg-down-90{
+				margin-top: 90px;
+			}
+			.lg-down-100{
+				margin-top: 100px;
+			}
+			.lg-down-120{
+				margin-top: 120px;
+			}
+			.lg-down--50{
+				margin-top: -50px;
+			}
+			.lg-down--100{
+				margin-top: -100px;
+			}
+			.lg-down--150{
+				margin-top: -150px;
+			}
+			.lg-down--200{
+				margin-top: -200px;
+			}
+			.lg-down--300{
+				margin-top: -300px;
+			}
+			.lg-px15{
+				font-size: 15px;
+			}
+			.lg-px20{
+				font-size: 20px;
+			}
+			.lg-px-25{
+				font-size: 25px;
+			}
+			.lg-px30{
+				font-size: 30px;
+			}
+			.lg-px40{
+				font-size: 40px;
+			}
+			.lg-px50{
+				font-size: 50px;
+			}
+			.lg-px60{
+				font-size: 60px;
+			}
+			.lg-px70{
+				font-size: 70px;
+			}
+			.lg-px80{
+				font-size: 80px;
+			}
+			.lg-px90{
+				font-size: 90px;
+			}
+			.lg-px100{
+				font-size: 100px;
+			}
+			.lg-height-550{
+				height: 550px;
+			}
+			.lg-height-580{
+				height: 580px;
+			}
+		}
+		@media(min-width: 1200px){
+			.hidden-xl{
+				display: none;
+			}
+			.xl-px13{
+				font-size: 13px;
+			}
+			.xl-px15{
+				font-size: 15px;
+			}
+			.xl-px18{
+				font-size: 18px;
+			}
+			.xl-px20{
+				font-size: 20px;
+			}
+			.xl-px30{
+				font-size: 30px;
+			}
+			.xl-px40{
+				font-size: 40px;
+			}
+			.xl-down-1{
+				margin-top: 1px;
+			}
+			.xl-down-3{
+				margin-top: 3px;
+			}
+			.xl-down-5{
+				margin-top: 5px;
+			}
+			.xl-down-10{
+				margin-top: 10px;
+			}
+			.xl-down-40{
+				margin-top: 40px;
+			}
+			.xl-down-60{
+				margin-top: 60px;
+			}
+			.xl-down-100{
+				margin-top: 100px;
+			}
+			.xl-down--50{
+				margin-top: -50px;
+			}
+			.xl-down--100{
+				margin-top: -100px;
+			}
+			.xl-down--150{
+				margin-top: -150px;
+			}
+			.xl-down--200{
+				margin-top: -200px;
+			}
+			.xl-down--300{
+				margin-top: -300px;
+			}
+			.xl-height-400{
+				height: 400px;
+			}
+			.xl-height-700{
+				height: 700px;
+			}
+			.xl-height-740{
+				height: 740px;
+			}
+		}
+		@media(min-width: 1400px){
+			.img-container{
+				height: 600px !important;
+			}
+			.xxl-px20{
+				font-size: 20px;
+			}
+			.xxl-px25{
+				font-size: 25px;
+			}
+			.xxl-px30{
+				font-size: 30px;
+			}
+			.xxl-height-900{
+				height: 900px;
+			}
+		}
+		.centered{
+			text-align: center;
+		}
+		.left{
+			text-align: left;
+		}
+		.mother{
+			width: 100%;
+			position: relative;
+			float: left;
+		}
+		.my-container{
+			width: 70%;
+		}
+		.img-container{
+			width: 100%;
+			height: 500px;
+			overflow: hidden;
+		}
+		.img-container img{
+			width: 100%;
+			height: auto;
+		}
+		.height{
+			height: 70px;
+		}
+		.height-200{
+			height: 200px;
+		}
+		.height-250{
+			height: 250px;
+		}
+		.height-500{
+			height: 500px;
+		}
+		.height-100{
+			height: 100%;
+		}
+		.width-auto{
+			width: auto;
+		}
+		.color-code-1{
+			color: #009900;
+		}
+		.color-code-2{
+			color: #ffc107;
+		}
+		.white{
+			color: #fff;
+		}
+		.bg-color-code-1{
+			background-color: #009900;
+		}
+		.bg-color-code-2{
+			background-color: #ffc107;
+		}
+		.border-color-code-1{
+			border: 1px solid #009900;
+		}
+		.border-color-code-2{
+			border: 1px solid #ffc107;
+		}
+		.to-color-code-1:hover{
+			background-color: #009900;
+			color: #fff;
+		}
+		.btn-curved{
+			font-size: 12px;
+			padding: 10px 30px;
+			margin-top: 10px;
+			display: inline-block;
+			border-radius: 30px;
+		}
+		.px10{
+			font-size: 10px;
+		}
+		.px15{
+			font-size: 15px;
+		}
+		.px18{
+			font-size: 18px;
+		}
+		.px20{
+			font-size: 20px;
+		}
+		.px30{
+			font-size: 30px;
+		}
+		.mabo{
+			margin-bottom: 20px;
+		}
+		.down-20{
+			margin-top: 20px;
+		}
+		.down-40{
+			margin-top: 40px;
+		}
+		.down-100{
+			margin-top: 100px;
+		}
+		.down-150{
+			margin-top: 150px;
+		}
+		.bopad-30{
+			padding-bottom: 30px;
+		}
+		{
+			background-color: none;
+			outline: none;
+			border: none;
+			float: left;
+			padding-left: 30px;
+		}
+		.text-box{
+			width: 100%;
+			overflow: hidden;
+			font-size: 20px;
+			padding: 8px 0;
+			margin-top: 8px 0;
+			border-bottom: 1px solid #009900;
+		}
+		.text-box i{
+			font-size: 30px;
+			color: #009900;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg-1 hidden-xs">
+		<div class="scarf">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-sm-10">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12 col-sm-3 down-150 centered">
+									<a href="">Home <i class="fa fa-home"></i></a>
+								</div>
+								<div class="col-12 col-sm-3 down-150 centered">
+									<a href="">Kitchen <i class="fa fa-spoon"></i></a>
+								</div>
+								<div class="col-12 col-sm-3 down-150 centered">
+									<a href="#about-us">About <i class="fa fa-angle-double-down"></i></a>
+								</div>
+								<div class="col-12 col-sm-3 down-150 centered">
+									<a href="contact">Contact <i class="fa fa-phone"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-sm-6 centered down-40">
+						<div class="color-code-2 display-3"><span>WELCOME</span></div>
+						<div class="px20 white down-20"><span>Home of African dishes</span></div>
+						<div class="px20 white"><span>&</span></div>
+						<div class="px20 white"><span>A world of fruities</span></div>
+						<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Become a chef</a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-1 hidden-md hidden-lg hidden-xl hidden-sm">
+		<div class="scarf">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-sm-10">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12 col-sm-3 down-100 centered">
+									<a href="">Home <i class="fa fa-home"></i></a>
+								</div>
+								<div class="col-12 col-sm-3 down-20 centered">
+									<a href="">Kitchen <i class="fa fa-spoon"></i></a>
+								</div>
+								<div class="col-12 col-sm-3 down-20 centered">
+									<a href="">About <i class="fa fa-angle-double-down"></i></a>
+								</div>
+								<div class="col-12 col-sm-3 down-20 centered">
+									<a href="">Contact <i class="fa fa-phone"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-sm-6 centered down-40">
+						<div class="color-code-2 display-3"><span>WELCOME</span></div>
+						<div class="px20 white down-20"><span>Home of African dishes</span></div>
+						<div class="px20 white"><span>&</span></div>
+						<div class="px20 white"><span>A world of fruities</span></div>
+						<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Become a chef</a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother bg-color-code-1 xs-height-1000 sm-height-1000 md-height-350 xl-height-400">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-4 md-down-30 col-sm-12 xs-down-30 sm-down-30">
+					<div class="container">
+						<h1 class="white xs-px25 sm-px20 sm-down-20 lg-down-40 centered xl-down-60 md-down--10">DISH MAKING</h1>
+						<p class="white xs-px15 sm-px10 centered xl-px13">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 md-down-70">
+					<div class="xs-my-container">
+						<div class="img-container"><img src="images/food.jpg"></div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 md-down-70 xs-down--110 sm-down--90">
+					<div class="xs-my-container">
+						<div class="img-container"><img src="images/food.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother bg-color-code-2 xs-auto sm-height-500 md-height-400 xl-height-400 xs-down-30">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-12 centered col-sm-4 sm-down-20 xs-down-50">
+					<div class="white xs-px100 md-px100 sm-px100"><span><i class="fa fa-spoon"></i></span></div>
+					<div class="white xs-px15 xl-px15"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>
+				<div class="col-12 centered col-sm-4 sm-down-20">
+					<div class="white xs-px100 md-px100 sm-px100"><span><i class="fa fa-cutlery"></i></span></div>
+					<div class="white xs-px15 xl-px15"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>
+				<div class="col-12 centered col-sm-4 sm-down-20">
+					<div class="white xs-px100 md-px100 sm-px100"><span><i class="fa fa-spoon"></i></span></div>
+					<div class="white xs-px15 xl-px15"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother md-down-30 sm-down-30 xs-down-30">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-10 col-sm-10 bg-color-code-2 md-height-520 sm-height-900 xs-auto lg-height-580 xl-height-740 xxl-height-900">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-6 xs-down-30 sm-down-30">
+								<div class="img-container"><img src="images/food.jpg"></div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 xs-down--210 sm-down--210	md-down-40 lg-down-50">
+								<div class="white lg-px15 xl-px18 xxl-px25"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+							</div>
+						</div>
+						<div class="row xl-down-100">
+							<div class="col-12 col-sm-12 col-md-6 xs-down--70 sm-down--70 md-down--220 order-md-2">
+								<div class="img-container"><img src="images/food-2.jpg"></div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 xs-down--210 sm-down--210 md-down--210 order-md-1">
+								<div class="white lg-px15 xl-px18 xxl-px25"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother bg-2 xs-down-30 sm-down-30">
+		<div class="scarf">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 centered xs-down-50 sm-down-60 md-down-30">
+						<div class="xs-px30 sm-px30 md-px30 xl-px40 color-code-2"><span><div class="color-code-1"><i class="fa fa-square"></i></div> GET</span></div>
+						<div class="white md-px20 xs-px15 centered"><span>Nourishing and tasty meals made with our special recipe.</span></div>
+						<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Order now</a></span></div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 centered xs-down-60 sm-down-60 md-down-50">
+						<div><span class="color-code-2 xs-px30 sm-px30 md-px-30 xl-px40"><div class="color-code-1"><i class="fa fa-square"></i></div>GET</span></div>
+						<div class="white md-px20"><span>For your Parties and occassion.</span></div>
+						<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Order now</a></span></div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 centered xs-down-70 sm-down-60 md-down-30">
+						<div><span class="color-code-2 xs-px30 sm-px30 md-px30 xl-px40"><div class="color-code-1"><i class="fa fa-square"></i></div>GET</span></div>
+						<div class="white md-px20"><span>For your home with special deliveries and bonus prices</span></div>
+						<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Order now</a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother xs-down-30 sm-down-30" id="about-us">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-12 col-sm-6 col-md-6 col-xl-6 col-lg-6 lg-down-90">
+					<div><span class="color-code-2 display-3 md-px70 lg-px100">ABOUT US</span></div>
+					<div class="md-px15 md-down-30 lg-px20 pre-scrollable xxl-px20 xs-down-30"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>		
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 md-down-100 xs-down-30">
+					<div class="img-container"><img src="images/elipees-1.jpg"></div>
+				</div>
+			</div>
+			<div class="row sm-down--200 lg-down-1 justify-content-center">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 xs-down-30 sm-down-30">
+					<div class="md-px15 md-down-70 lg-px20 lg-down-120 pre-scrollable xs-down-30"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</span></div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 md-down-100 xs-down-30">
+					<div class="img-container"><img src="images/elipees-2.jpg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother xl-down-40 xs-down-30 sm-down--200 md-down-1 xl-down-30" id="contact">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-10">
+					<div class="card">
+						<div class="card-header centered display-3">GET IN TOUCH</div>
+						<div class="card-body centered">
+							<div>
+								<form>
+									<div class="text-box">
+										<i class="fa fa-user px25"></i>
+										<input type="text" name="name" placeholder="Input your name">
+									</div>
+									<div class="text-box">
+										<i class="fa fa-book px25"></i>
+										<input type="text" name="name" placeholder="Place your order">
+									</div>
+									<div class="text-box">
+										<i class="fa fa-envelope px25"></i>
+										<input type="e-mail" name="name" placeholder="Input your e-mail">
+									</div>
+									<div class="text-box">
+										<i class="fa fa-phone px25"></i>
+										<input type="number" name="name" placeholder="Input phone number">
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="card-footer justify-content-center centered">
+							<div><span><a href="" class="btn-curved border-color-code-1 color-code-1 to-color-code-1">Order</a></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother xs-down-30 sm-down-30">
+		<div class="card">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-12 color-code-2 centered xs-down-10 sm-down-10"><span class="display-3">OUR KITCHEN</span></div>
+					<div class="col-12 xs-down-30 sm-down-30">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 xs-down--300 sm-down--300 md-down--200 lg-down--100">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 xs-down--300 sm-down--300 md-down--200 lg-down--100">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 xs-down--300 sm-down--300 md-down--200 lg-down--100">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 xs-down--300 sm-down--300 md-down--200 lg-down--100">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 xs-down--300 sm-down--300 md-down--200 lg-down--100">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-6">	
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+								<div class="col-6">
+									<div class="img-container"><img src="images/food.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother xs-down--300 sm-down--300 md-down--200 lg-down--150 xl-down--100 bopad-30" style="background-color: #f1f1f1">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-10">
+					<div class="container-fluid">
+						<div class="row justify-content-center">
+							<div class="col-12 xs-down-30 sm-down-30 md-down-30 lg-down-30 xl-down-30">
+								<a href="" class="btn btn-block btn-success">Home <i class="fa fa-home"></i></a>
+							</div>
+							<div class="col-12 xs-down-10 sm-down-10 md-down-10 lg-down-10 xl-down-10">
+								<a href="" class="btn btn-success btn-block">About us <i class="fa fa-angle-double-down"></i></a>
+							</div>
+							<div class="col-12 xs-down-10 sm-down-10 md-down-10 lg-down-10 xl-down-10">
+								<a href="" class="btn btn-success btn-block">Contact us <i class="fa fa-phone"></i></a>
+							</div>
+							<div class="col-12 xs-down-10 sm-down-10 md-down-10 lg-down-10 xl-down-10">
+								<a href="" class="btn btn-success btn-block">Kitchen <i class="fa fa-home"></i></a>
+							</div>
+							<div class="col-10 sm-col-6 sm-down-20 xs-down-20">
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-4 centered">
+											<div><span><a href="" class="color-code-1"><i class="fa fa-instagram px30"></i></a></span></div>
+										</div>
+										<div class="col-4 centered">
+											<div><span><a href="" class="color-code-1"><i class="fa fa-facebook px30"></i></a></span></div>
+										</div>
+										<div class="col-4 centered">
+											<div><span><a href="" class="color-code-1"><i class="fa fa-envelope px30"></i></a></span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--
+	<div class="bg-1 hidden-sm">
+		<div class="scarf">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-10 bg-color-code-1 height down-150">
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-3 centered down-20">
+									<a href="">Home</a>
+								</div>
+								<div class="col-md-3 centered down-20">
+									<a href="">About</a>
+								</div>
+								<div class="col-md-3 centered down-20">
+									<a href="">Contact</a>
+								</div>
+								<div class="col-md-3 centered down-20">
+									<a href="">Kitchen</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-sm-8 centered">
+						<span class="display-2 color-code-2">WELCOME</span>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-4 centered">
+						<div class="px20 white"><span>Home of African dishes</span></div>
+						<div class="px20 white"><span>&</span></div>
+						<div class="px20 white"><span>A world of fruities</span></div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-4 centered">
+						<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Become a chef</a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hidden-md">
+		<div class="bg-1 height-500">
+			<div class="scarf">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-10 bg-color-code-1 height-100 down-100">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-sm-3 centered">
+										<div  style="margin-top: 15px">
+											<a href="">Home</a>
+										</div>
+									</div>
+									<div class="col-sm-3 centered">
+										<div style="margin-top: 8px">
+											<a href="">About</a>
+										</div>
+									</div>
+									<div class="col-sm-3 centered">
+										<div style="margin-top: 8px">
+											<a href="">Contact</a>
+										</div>
+									</div>
+									<div class="col-sm-3 centered">
+										<div style="margin-top: 8px" class="mabo">
+											<a href="">Kitchen</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-sm-8 centered">
+							<span class="display-3 color-code-2">WELCOME</span>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-sm-4 centered">
+							<div class="lead white"><span>Home of African dishes</span></div>
+							<div class="lead white"><span>&</span></div>
+							<div class="lead white"><span>A world of fruities</span></div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-sm-4 centered">
+							<div><span><a href="" class="btn-curved border-color-code-1 white to-color-code-1">Become a chef</a></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother bg-color-code-1 height-250 hidden-sm">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-4 centered order-sm-3">
+					<div class="down-20">
+						<div class="img-container"><img src="images/food.jpg"></div>
+					</div>
+				</div>
+				<div class="col-sm-4 centered order-sm-2">
+					<div class="down-20">
+						<div class="img-container"><img src="images/food.jpg"></div>
+					</div>
+				</div>
+				<div class="col-sm-4 centered order-sm-1 down-20">
+					<div class="left">
+						<h1 class="px30 white">DISH MAKING</h1>
+						<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother bg-color-code-1 height-100 hidden-md">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="my-container">
+					<div class="col-xs-4 centered">
+						<div class="down-20">
+							<div class="img-container"><img src="images/food.jpg"></div>
+						</div>
+					</div>
+					<div class="col-xs-4 centered" style="margin-top: -350px">
+						<div class="down-20">
+							<div class="img-container"><img src="images/food-2.jpg"></div>
+						</div>
+					</div>
+					<div class="col-xs-4 centered" style="margin-top: -320px">
+						<div>
+							<h1 class="px30 white">DISH MAKING</h1>
+							<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mother">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-10 offset-md-1 bg-color-code-2">
+					<div class="container">
+						<div class="col-6">
+							<div class="img-container"><img src="images/food-2.jpg"></div>
+						</div>
+						<div class="col-6">
+							<div><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+<!--
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 centered bg-color-code-1">col-1</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 centered bg-color-code-2">col-2</div>
+			<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2 centered bg-color-code-1">col-3</div>
+			<div class="col-12 col-sm-4 col-md-6 col-lg-3 col-xl-2 centered bg-color-code-2">col-4</div>
+			<div class="col-12 col-sm-4 col-md-6 centered col-xl-2 bg-color-code-1">col-5</div>
+			<div class="col-12 centered col-lg-6 col-xl-2 bg-color-code-2">col-6</div>
+			<div class="col-12 centered bg-color-code-1">col-7</div>
+			<div class="col-12 centered bg-color-code-2">col-8</div>
+			<div class="col centered bg-color-code-1">col-9</div>
+			<div class="col centered bg-color-code-2">col-10</div>
+			<div class="col centered bg-color-code-1">col-11</div>
+			<div class="col centered bg-color-code-2">col-12</div>
+		</div>
+	</div>
+-->
+</body>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
